@@ -15,14 +15,14 @@ function Header({ handleOnChange, handleClick, inputValue }: PropsHeader) {
           onClick={ () => window.history.back() }
           to="/"
         >
-          <img src="images/icons8-arrow-pointing-left-96.png" alt="" />
+          <img src="/images/icons8-arrow-pointing-left-96.png" alt="" />
         </Link>
         <Link
           to="/"
           onClick={ () => handleClick('') }
           className="returnbtn"
         >
-          <img src="images/icons8-casa.svg" alt="" />
+          <img src="/images/icons8-casa.svg" alt="" />
         </Link>
         <input
           type="text"
@@ -37,12 +37,12 @@ function Header({ handleOnChange, handleClick, inputValue }: PropsHeader) {
           className="search"
           aria-label="Search"
         >
-          <img src="../src/assets/img/search.svg" alt="asfesds" />
+          <img src="/img/search.svg" alt="asfesds" />
         </button>
       </div>
-      <img className="logoimage" src="../src/assets/img/logo.svg" alt="" />
+      <img className="logoimage" src="/img/logo.svg" alt="" />
       <Link to="/cart" data-testid="shopping-cart-button">
-        <img className="carrinhoimg" src="images/icons8-carrinho-96.png" alt="carinho" />
+        <img className="carrinhoimg" src="/images/icons8-carrinho-96.png" alt="carinho" />
       </Link>
 
     </header>

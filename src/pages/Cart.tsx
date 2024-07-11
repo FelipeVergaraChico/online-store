@@ -57,7 +57,7 @@ function Cart() {
                     data-testid="remove-product"
                     onClick={ () => handleRemoveProduct(product.id) }
                   >
-                    <img src="../src/assets/img/cart_remove.svg" alt="remove produto" />
+                    <img src="/img/cart_remove.svg" alt="remove produto" />
                   </button>
                   <img src={ product.thumbnail } alt="imagem do produto" />
                   <p data-testid="shopping-cart-product-name">{product.title}</p>
@@ -73,7 +73,7 @@ function Cart() {
                     onClick={ () => handleUpdateCart(product.id, product.quantity - 1) }
                   >
                     <img
-                      src="../src/assets/img/cart_decrease.svg"
+                      src="/img/cart_decrease.svg"
                       alt="diminuir quantidade"
                     />
                   </button>
@@ -89,7 +89,7 @@ function Cart() {
                     onClick={ () => handleUpdateCart(product.id, product.quantity + 1) }
                   >
                     <img
-                      src="../src/assets/img/cart_increase.svg"
+                      src="/img/cart_increase.svg"
                       alt="aumentar quantidade"
                     />
                   </button>
